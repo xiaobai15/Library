@@ -14,8 +14,7 @@ body{
 	background-color: #fafafa;
     border-top: 1px solid #d2d2d2;
     border-bottom: 1px solid #e5e5e5;
-    position: fixed;
-    top:0;
+    
 }
 nav ul{	
 	list-style: none;
@@ -55,7 +54,7 @@ nav ul li a:hover{
 .active{
 	width:744px;
 	height: 700px;
-	background: #00b38a;
+	background: #fff;
 	float: left;
 
 }
@@ -106,7 +105,7 @@ ul
 
 #active_new .item_new_list li
 {
-	width: 670px;
+	width: 740px;
 	padding: 28px  32px;
 	height: 200px;
 	border: 1px solid  #e8e8e8;
@@ -132,8 +131,8 @@ img
 
 #active_new .item_new_list li .item_new_cont dd
 {
-	width: 300px;
-	height: 160px;
+	width: 500px;
+	height: 130px;
 
 }
 
@@ -163,4 +162,17 @@ dl,dt,dd
 a
 {
 	text-decoration: none;
+}
+
+#active_new .item_new_list li .item_state
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 0 30px;
+	box-sizing: border-box;
+	height: 44px;
+	line-height: 44px;
+	background-color: #fafafa;
 }
