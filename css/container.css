@@ -53,7 +53,7 @@ nav ul li a:hover{
 }
 .active{
 	width:744px;
-	height: 700px;
+	height: 900px;
 	background: #fff;
 	float: left;
 
@@ -189,4 +189,97 @@ a
 {
 	width: 744px;
 	height: 200px;
+}
+
+.old_more
+{
+	padding-left: 20px;
+	margin-bottom: 10px;
+
+}
+
+.active_old-1
+{
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.18);
+	position: relative;
+	width: 26%;
+	float: left;
+	margin-right: 13px;
+	margin-left: 13px;
+}
+
+/*图片圆角*/
+.active_old-1 img
+{
+	width:100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	vertical-align: middle;/*垂直对齐*/
+}
+
+
+.old-1-info
+{
+	padding: 6px 15px 28px;
+	height: 80px;
+	overflow: hidden;
+}
+
+.old-1-info h4
+{
+	color: #337ab7;
+	font-size: 14px;
+	overflow: hidden;/*长出边框。。。代替*/
+	text-overflow: ellipsis;
+	word-break: keep-all;
+	white-space: nowrap;
+	display: block;
+	font-weight: bold;
+	line-height: 18px;
+	margin-top: 7px;
+	margin-bottom: 5px;
+
+}
+
+.old-1-info small
+{
+	color: #838383;
+	padding-bottom: 10px;
+}
+
+.sort-1
+{
+    bottom: 34px;
+    font-size: 12px;
+    height: 35px;
+    left: 10px;
+    line-height: 35px;
+    max-width: 210px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.old_item_state
+{
+	background-color: #f6f6f6;
+    border-radius: 0 0 3px 3px;
+    border-top: 1px solid #e7e7e7;
+    box-shadow: 0 1px 0 0 #fff inset;
+    padding: 7px 15px 7px 15px;
+    color: #8B8B8C;
+    position: relative;
+}
+
+.fa-list-ul:before
+{  
+  content: "\f0ca";
+
+}        
+.fa-list-ul 
+{
+	padding-left: 10px;
 }
