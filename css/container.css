@@ -14,17 +14,16 @@ body{
 	background-color: #fafafa;
     border-top: 1px solid #d2d2d2;
     border-bottom: 1px solid #e5e5e5;
-    position: fixed;
-    top:0;
+    
 }
 nav ul{	
 	list-style: none;
 	text-align: center;
-	margin: 0;
+	margin: 0 500px;
 	padding: 0;
-	width: 60%;
-	position: fixed;
-	left: 20%;
+	width: 50%;
+	
+	left: 100%;
 }
 nav ul li{
 	display: inline;
@@ -49,13 +48,13 @@ nav ul li a:hover{
 .pic-wrapper{
 	width: 1024px;
 	height: 300px;
-	margin: 80px 0 18px ;
+	margin: 30px 0 18px ;
 	overflow: hidden;
 }
 .active{
 	width:744px;
 	height: 700px;
-	background: #00b38a;
+	background: #fff;
 	float: left;
 
 }
@@ -89,7 +88,7 @@ footer{
 #active_new
 {
 	width: 744px;
-	height: 300px;
+	height: 420px;
 }
 
 #active_new .item_new_list
@@ -106,7 +105,7 @@ ul
 
 #active_new .item_new_list li
 {
-	width: 670px;
+	width: 740px;
 	padding: 28px  32px;
 	height: 200px;
 	border: 1px solid  #e8e8e8;
@@ -132,9 +131,17 @@ img
 
 #active_new .item_new_list li .item_new_cont dd
 {
-	width: 300px;
-	height: 160px;
+	width: 500px;
+	height: 130px;
 
+}
+
+#active_new .item_new_list li .item_new_cont dd .introduce
+{
+	font-size: 16px;
+    font-weight: 700;
+    margin: 14px 0 18px;
+    
 }
 
 dl,dt,dd
@@ -163,4 +170,23 @@ dl,dt,dd
 a
 {
 	text-decoration: none;
+}
+
+#active_new .item_new_list li .item_state
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 0 30px;
+	box-sizing: border-box;
+	height: 44px;
+	line-height: 44px;
+	background-color: #fafafa;
+}
+
+#active_old
+{
+	width: 744px;
+	height: 200px;
 }
