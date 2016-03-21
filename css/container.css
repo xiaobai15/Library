@@ -14,7 +14,7 @@ body{
 	background-color: #fafafa;
     border-top: 1px solid #d2d2d2;
     border-bottom: 1px solid #e5e5e5;
-    position: fixed;
+    position: absolute;
     top:0;
 }
 nav ul{	
@@ -23,7 +23,7 @@ nav ul{
 	margin: 0;
 	padding: 0;
 	width: 60%;
-	position: fixed;
+	position: absolute;
 	left: 20%;
 }
 nav ul li{
@@ -55,12 +55,9 @@ nav ul li a:hover{
 .active{
 	width:744px;
 	height: 700px;
-	background: #00b38a;
 	float: left;
-
 }
 .left-content{
-	background: #00b38a;
 	width: 260px;
 	height: 700px;
 	margin-left: 20px;
@@ -142,7 +139,7 @@ dl,dt,dd
 	margin: 0;
 }
 
- .fr h3
+.fr h3
 {
 	
 	line-height: 40px;
@@ -163,4 +160,41 @@ dl,dt,dd
 a
 {
 	text-decoration: none;
+}
+.introduce2{
+	text-align: center;
+	border: 1px solid #E8E8E8;
+	height: 100%;
+}
+.intro_title{
+	font-size: 25px;
+	margin: 20px;
+}
+.intro{
+	font-size: 15px;
+	margin: 40px;
+}
+.sign_up{
+	margin-top: 20px;
+	width: 120px;
+	height: 40px;
+}
+
+#active_new .item_new_list li .item_state
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 0 30px;
+	box-sizing: border-box;
+	height: 44px;
+	line-height: 44px;
+	background-color: #fafafa;
+}
+.active1{
+	height: 70%;
+}
+.active2{
+	height: 20%;
 }
