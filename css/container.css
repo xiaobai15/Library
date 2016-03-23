@@ -59,11 +59,11 @@ nav ul li a:hover{
 
 }
 .left-content{
-	background: #00b38a;
+	border: 1px solid #E0E0E0;
 	width: 260px;
 	height: 700px;
 	margin-left: 20px;
-	float:left;
+	float: left;
 }
 footer{
 	background: #fff;
@@ -195,6 +195,8 @@ a
 {
 	padding-left: 20px;
 	margin-bottom: 10px;
+	list-style: none;
+
 
 }
 
@@ -282,4 +284,21 @@ a
 .fa-list-ul 
 {
 	padding-left: 10px;
+}
+
+.introduce{
+	text-align: center;
+}
+.intro_title{
+	font-size: 25px;
+	margin: 25px;
+}
+.intro_con{
+	font-size: 15px;
+	margin: 35px;
+}
+.intro_btn{
+	width: 100px;
+	height: 35px;
+	margin: 20px;
 }
