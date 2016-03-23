@@ -283,3 +283,20 @@ a
 {
 	padding-left: 10px;
 }
+
+.introduce{
+	text-align: center;
+}
+.intro_title{
+	font-size: 25px;
+	margin: 25px;
+}
+.intro_con{
+	font-size: 15px;
+	margin: 35px;
+}
+.intro_btn{
+	width: 100px;
+	height: 35px;
+	margin: 20px;
+}
