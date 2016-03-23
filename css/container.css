@@ -59,11 +59,11 @@ nav ul li a:hover{
 
 }
 .left-content{
-	background: #00b38a;
+	border: 1px solid #E0E0E0;
 	width: 260px;
 	height: 700px;
 	margin-left: 20px;
-	float:left;
+	float: left;
 }
 footer{
 	background: #fff;
